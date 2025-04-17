@@ -1,3 +1,4 @@
+"use client"
 
 export default function CardPerson() {
   return (
@@ -7,8 +8,8 @@ export default function CardPerson() {
         </div>
         <div className="grid col-span-8">
           <div>
-            <h2 className="text-2xl font-bold">John Doe</h2>
-            <p className="text-gray-500" onClick={()=>alert("hola")}>Software Engineer</p>
+            <h2 id="namecard" className="text-2xl font-bold">John Doe</h2>
+            <p className="text-gray-500" onClick={()=>window.alert("hola")}>Software Engineer</p>
           </div>
 
         </div>
